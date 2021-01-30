@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:dialogTitle="Choose a sort order"
+        android:entries="@array/sort_names"
+        android:entryValues="@array/sort_clauses"
+        android:key="sort_order"
+        android:summary="Choose the order the list uses"
+        android:title="Sort Order" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="alarm"
+        android:summary="Check if you want to notify yourself whether alarm rang off or not"
+        android:title="Enable Notification for Alarm" />
+</PreferenceScreen>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">HealthIsWealth</string>
+    <string name="title_activity_alarm">Health Is Wealth</string>
+    <string name="title_activity_alarm_list">HealthIsWealth</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+
+    <string name="text_alarm">Alarm</string>
+
+    <string name="text_multiple_alarm">Multiple Alarms</string>
+
+    <string name="text_reminder">Reminder</string>
+
+    <string name="title_activity_reminder">ReminderActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text_set_reminder">Set Reminder</string>
+
+    <string name="setTime">Set Time</string>
+
+    <string name="sunday">S</string>
+
+    <string name="monday">M</string>
+
+    <string name="tuesday">T</string>
+
+    <string name="Wednesday">W</string>
+
+    <string name="thursday">T</string>
+
+    <string name="Friday">F</string>
+
+    <string name="saturday">S</string>
+
+    <string name="AlarmHint">Alarm Label eg. Wake Me Up</string>
+
+    <string name="MultipleAlarmHint">Alarm Label eg. Meeting</string>
+
+    <string name="RepetitionAlarmHint">eg. 30 min</string>
+
+    <string name="SetAlarm">Set Alarm</string>
+
+
+    -
+    <string-array name="special_days_array">
+
+        <item>Birthday</item>
+
+        <item>Marriage Anniversary</item>
+
+        <item>Other</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="delete_items">Delete Items</string>
+
+    <string name="msg_empty_reminder">No reminders added to display</string>
+
+    <string name="msg_empty_alarm">No alarms added to display</string>
+
+    <string name="eventsReminder">Reminders</string>
+
+    <string name="label_add_spl_reminder">Add Special Days Reminder</string>
+
+    <string name="label_add_events_reminder">Add Events Reminder</string>
+
+    <string name="label_set_alarm">Set Alarm</string>
+
+    <string name="label_set_multiple_alarm">Set Multiple Alarm</string>
+
+    <string name="label_alarm_list">Alarm List</string>
+
+    <string name="label_multiple_alarm_list">Multiple Alarm List</string>
+
+    <string name="spl_rem_notif_title">Reminder!!!</string>
+
+    <string name="turn_off">Turn off</string>
+
+    <string name="txt_to">to</string>
+
+
+</resources>

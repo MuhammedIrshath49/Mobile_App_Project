@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string-array name="sort_names">
+    <item>By Healthiswealth Name, Ascending</item>
+    <item>By Healthiswealth Name, Descending</item>
+    <item>By Healthiswealth Reps</item>
+    <item>By Healthiswealth Exercise, Ascending</item>
+    <item>By Healthiswealth Exercise, Descending</item>
+</string-array>
+    <string-array name="sort_clauses">
+        <item>healthiswealthName ASC</item>
+        <item>healthiswealthName DESC</item>
+        <item>healthiswealthReps ASC</item>
+        <item>healthiswealthExercise ASC</item>
+        <item>healthiswealthExercise DESC</item>
+    </string-array></resources>

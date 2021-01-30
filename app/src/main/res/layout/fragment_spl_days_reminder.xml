@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_spl_days_reminder_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team8.android.multiplealarms.fragments.SpecialDaysReminderFragment">
+
+    <TextView
+        android:id="@+id/tv_empty_spl_reminder_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/large"
+        android:text="@string/msg_empty_reminder"
+        android:textSize="@dimen/medium_text"
+        android:textStyle="italic" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/reminder_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.team8.android.multiplealarms.activities.ReminderActivity" />
+</FrameLayout>
